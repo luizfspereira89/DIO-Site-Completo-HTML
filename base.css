@@ -36,3 +36,21 @@ body {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+}
+table th {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
